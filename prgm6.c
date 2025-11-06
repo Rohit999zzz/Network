@@ -21,3 +21,5 @@ int main() {
     RSA_free(userB);
     return 0;
 }
+
+gcc -o rsa_example rsa_example.c -lssl –lcrypto
